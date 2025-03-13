@@ -6,8 +6,6 @@ const plans = {
     8: { base: 800, tiers: [{ limit: 1.4, rate: 0 }, { limit: Infinity, rate: 720 }] },
     9: { base: 1900, tiers: [{ limit: 5, rate: 610 }, { limit: Infinity, rate: 520 }] },
     10: { base: 1600, tiers: [{ limit: Infinity, rate: 530 }] },
-    12: { base: 1400, tiers: [{ limit: 8, rate: 480 }, { limit: 30, rate: 430 }, { limit: Infinity, rate: 380 }] },
-    13: { base: 1800, tiers: [{ limit: Infinity, rate: 590 }] }
 };
 
 // 料金計算を行う関数
